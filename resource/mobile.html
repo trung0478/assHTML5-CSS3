@@ -1,0 +1,477 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="/css/base.css">
+    <link rel="stylesheet" href="/css/style.css">
+    <link rel="stylesheet" href="/font/css/all.min.css">
+    <link rel="icon" href="/img/logoicon.png" type="image/x-icon" />
+</head>
+<body>
+    <div class="container">
+        <!-- Begin: header -->
+        <header>
+            <div class="header__above">
+                <div class="grid">
+                    <div class="header__contact">
+                        <i class="fa-solid fa-phone"></i>
+                        <span class="contact-number">0266.666.888</span>
+                    </div>
+                    <ul class="header__info">
+                        <li class="info-login">
+                            <a href="" class="info-link">
+                                <i class="fa-solid fa-user"></i>
+                                <span class="login-text">Đăng nhập</span>
+                            </a>
+                        </li>
+                        <li class="info-cart">
+                            <a href="" class="info-link">
+                                <i class="fa-solid fa-cart-shopping"></i>
+                                <span class="cart-text">Giỏ hàng</span>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="header__below">
+                <div class="grid">
+                    <div class="header__logo">
+                        <a href="index.html">
+                            <img src="/img/Screenshot_2023-05-25_at_09.55.02-removebg-preview.png" alt="">
+                        </a>
+                    </div>
+                    <ul class="header_menu">
+                        <a href="mobile.html">
+                            <li class="menu-items">Điện thoại</li>
+                        </a>
+                        <a href="laptop.html">
+                            <li class="menu-items">Laptop</li>
+                        </a>
+                        <a href="mobile.html">
+                            <li class="menu-items">Chuột</li>
+                        </a>
+                        <a href="keyboard.html">
+                            <li class="menu-items">Bàn phím</li>
+                        </a>
+                        <a href="tablet.html">
+                            <li class="menu-items">Máy tính bảng</li>
+                        </a>
+                    </ul>
+                    <div class="header__search">
+                        <form action="">
+                            <input type="text" placeholder="Tìm kiếm" required>
+                            <button type="submit">
+                                <i class="fa-solid fa-magnifying-glass"></i>
+                            </button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </header>
+
+        <!-- Begin: content -->
+        <main>
+            <div class="grid">
+                <div class="banner">
+                    <div class="banner-img">
+                        <img src="https://minhtuanmobile.com/uploads/editer/images/quang-cao-iphone-14-3.png" alt="">
+                    </div>
+                    <ul class="banner_nav-list">
+                        <li class="banner_nav-items">
+                            <a href="">
+                                <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAASwAAACoCAMAAABt9SM9AAAAeFBMVEX///8AAACbm5tra2v29vaioqL7+/utra18fHxycnK0tLRaWlrv7+9vb2/t7e2NjY0SEhJhYWHW1tbKysqEhIQqKio0NDTCwsJERETf398+Pj5KSkohISGpqand3d3k5OS9vb1SUlIZGRmIiIjS0tKUlJQdHR01NTVMir6jAAAFSElEQVR4nO2d6XLiMBCEsQmYY8HchADBhJB9/zfc5UgWY8m3ptVeff9dNdNlS6M55FbL4XA4ijH3F8MPtBEMHDpH7wraEPuJ7kr95QVti+V0Jp7nxMrF3ovRRdtjMfNJXCu3ZumZes+gLbKWWUIq7xVtk634Sa28HtooS+krtPJ8tFV2klyuLryjzbKStlIrt76rOKm1mqLtspFArZU3QBtmIe8ardxXqGCn0coFDkmUQcOFDdoy+5jrtHLLe5Lns7N7sfSoTjlX+mjLLESnlcv7JenotHIxVhKdVkO0YRay1onl8slJthqtXLohyYtGqwBtmI1Eaq1CtF1Woj7puAhLidMqPweVVi7XoOZToZWrUWgYJLWao22ylsQh+u0X2iR7CZ+06qANsplFTKqRe63SeBRr5HJ96Zy/ldr6LnuVxWDysduO/EitVPf/yjwc5oF/6vUW/uC9iOObQbi9l8eW28X+s/Fv3cs6XMa3utM6j9Oz4FURqbYHB+MWwwjUearXTvqG99lTPnZ7x/xGbpYHTUvMlVWge78OKUrdtW5ceD9TfUYxhlHyqfFZV8OPMWlUGWM8zOOz14+9Iy9+psA/LD9RrtXO8/klhVF0W4Nm/ir/QxemzdgcZ8tsVx9Z9c7appA0mrB0aQvxtcOfo1e30JqBvMGmW3DlqQj1NIGuAGiMN7TH5RHXyvOOaJ/L0v2SF4u2YvYG0Io1CZ12FjQJYzC/z3bLCCFhclBZVjbPkrIrqeAZpyY4i/xyh5xHOFM1vyBazdBul0PyRPgDaUJeMQRuHtZkPCIcJX2v9JOCBiFdr1qtfBn3WqFtZB7La9VG+1waQIyFdrk88lqt0S6XRj5uIB5/WmR7VzOUh+cb4loRv1jyuRnaEAuR9EN7XIHMFqG62aM9roD2jgFTsB4KW4Dw/QvtcQVUU0pG4cwk31BMKZklQntcgQKNa/VAvGTJl1bRDlchfx+oE0s8cviNdrgKwloxHwzlxeLNkQL610ZojysgXop2YhWA+TMUF4t5gRcXi7g/GdA+g/a4Al0nVgHExWJtnrkgLhbzMFiu0dM6OaM9roDubkNjbNEeV0B+VICw7/0b8UwpcVeI9l8K5iAeydTe424O3lFyQD8p5xzYBfkQnjmI/y0vFm+3g3wvG/Gqpb333iALtNNlEW92uEDbKIkQa4d2uiyy917cYU3Fyx94LpAGW4AY/kKE9rsUiLD0AmcWEHP5Bala8omHO4zz5BuUWJTXjX3A1CLMbWGChysTuptocN/hXxZsOXmkWHTz0udsj4xCtS0CRsrjUPXWiDd4P0FVHoPFpXfQ/hcDqxXZLYniI5oxyBKn0CV+hfa+KEegWHSJQFAK8Ara9+KgslqUs62aH6sKwNhlirl8k3RABfVqkcUNdyAFRNYKImZDZB0wB9z9x7gV3kBcRs24Fd6QPyEy/0JZXCy0w1WQDh8oi9I/yE6nMI+1tqSn8XlX9xuSCWaqoo4SuWCL9gdFD4iJxVaKViHVvsy9E34j0ydCe855QiJ+WKKdrAuJ+IE9aviH+Yu8qer1GZi+Q/iEdrBWzOYfyI85CUz21SybEGHFMHg7xhjtW+2Y2xI3aNcMYEot4rvzUzBzt1YztWq1unnWrW3vFETz9SDs5cpXsFa+cnBM97y/jvs+XvfTH9jRjpLnIaXp+6ReqDcp4/xk7ZCFman7RdppCZa1+t+SO7rRk+Ik7zJYBVnH4PE+2ThBNkhRls5jo9u0ky+mHO9HDzeCj5p0cs5gE5ymx2E7DIp9SYdo74dhJ2hquOBwOBwODH8ANaBTm6RouNYAAAAASUVORK5CYII="
+                                    alt="">
+                                <span>Iphone</span>
+                            </a>
+                        </li>
+                        <li class="banner_nav-items">
+                            <a href="">
+                                <img src="data:image/png;base64,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"
+                                    alt="">
+                                <span>Samsung</span>
+                            </a>
+                        </li>
+                        <li class="banner_nav-items">
+                            <a href="">
+                                <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAWMAAACOCAMAAADTsZk7AAAAmVBMVEX////sZxzsZRjsYxD98uvrXAD52cv4yrPrZhH3xqvxlmbrXwDsZBb74dLsZxf99PL0r473v6jtbB3xkV7++vfugEH75dn61sPufUTwjFP87OT4zbPsaiHtejr62cbwjFrudjLzpn3ynXDzpHvtbyzvhEn1t5f2vJ70rYjxlWX3yK7tdzXynnT50Lz3w6TsbyD0qovtczb0rpFlVonBAAALH0lEQVR4nO2c64KiuhKFJUFFCehowBZREQFtr3uf93+4UwEVAsFpR+2x3bX+tK0xl4+iUpUEGw0UCoVCoVAoFAqFQqFQKBQKhUKhUCgUCoVCoVAoFAqFQqFQKBQKhUKhUCjUD5e76dytjfu3R/HS8mJq3K+t9bfH8cpqNYl2v8wF/9sDeWG1mg9ArNFP/W8P5IX1IMZdZFwvZPx8IePnCxk/X8j4+ULGzxcyfr6+gXFP/90F0PXe5bV36O9fOKGB7k1u7d7zGbvLbnd0tQ/7z+7CO73Wu759XN04iO8TH/p2lNz4peczXjWpObhmyZ5vUrNz+mcDuT0NvCvF/6pE95h/Y/e+wY4/6NX1DL6jGo3PK3cr6A8JXnaJaWVC9/wblxm/wR9PIkLsX7UfJzYh/sWZjCgjNH7ZGXRmQvemvd8XLOobGPM1vWKarQHR7HVeuD8N4uvu+69q/Qfd+47YzYtZbQmvC55iWHBw3G29rDduiO5ZN3fvW+Lj2Ra8RaJyyXxta+zdV/i/JwdJmhrZzhQfjHyiNQ/PGdrL6JvyvDF4BKdaxoOYg4ZPGtrLqMSYUMpoVaywIZV9zm5j7E6ZZvbL7/JFMWx7W8mMSeAotT3mULMiAbmJcaMzICTal95sa4QYk2cN7WUkM6YHXSnPSmKaUiV+VmRi3sZYmCwLZJN1jxC2Lb/cVS7a/cJawVfLpSspyoJfr+FLkhgTWmtU3P00Sco4M8bZjYwbrgjgpHSPL8FTjCuewrNUIb7eThbdMOwuksnV2EnfrxYhaJ3MlJBc69xTb9LfQYXLpF2qcHZYixqWyV41KM+6OUH6KmPoPViiYJwVGd3KuLEPIJ8rhhCJT0hQCTb200FcpsOtbmCf5wY7GI7qbMxaB4NzOX+7qHr6/XGQ+X93canRjoZ58Oh1nEsNdrSsXM9RMJjfGiB/nXFDd9g9jHnf1Ni0lbccgGFXl7D6BmmWDNldDCgRYiz9Q41QOU96iZ2XA1dPo3W5W32T2JCm8SSiWcG0RnpMsib53qGs+MG0U6rgV5MNbg3nb2DcWNF7GDd4DL7h82yC+lAkeFWD7NuazJi3pzAVEGZHU8eZRpqAQFXB9myclmPRFiZp34ZYiJjzUjlg7I8abhemcAaW7sTOVjOgIN2JnuhLn4qW/G0cO4EPNTC7I3fxl0kew9hbFJWcb00Pgok7GDesqbDcrDLehznwQ2GOFcarI4zbdhabmavrbqvdjyFvodtyjMLbEZgA3YartNzoMIzgtqOBvLiQMvZiE2qM1yNX557VXju2Row1b3hDmHJo9Clq6HnWZDEFyFFbquBhjGemFB1Hp2upgyHew1jcCCTIvMUoggSvfCOmFEqMRSZIj33rYk7cTY5ghXHJK47gAhI6H106ou/HAlksWbJgfNjB5R0s3XONfPZJRRoqFlkJjSeXGvjMgZJjaWiPY0w1ieApsO3N72TMQ/AP0/SuDOoSvBJjzxFpSmlUIzAwsy/dxN4AuEcH6T09gQtJneKXYU7Qpj7MC9J+Vk/4rXBhEDJIpIG4MAWZUqr/YMbp9JEGxTTL0O5mDN6CpumeWO6sSfBKjFcKxJC8+IRJX+chTKh++b7gbWHJxUspGIPDM0rLky24GL6vVReuOj6h4+Ibj2VMolRwq0I306bvZ9xoR5DutRsbX5H1ZZIZQyxDbMX8tqNEIroRC/0K1/MLwofiRC4YA+J2udw/qVXZ6/IcrH9CQ0WmD2XMtjNXKKGPZCwMmMUb8J3GWl1CZtwC8wwV0bDV1Og/+fsirKSq/aw0z5nnnUsZK0ruNWFK82oNK1OjxT2cuxlrBcbUyRpsP5RxwwNv4QfwjXFNJC8zXlEyUO1S8wGh3bzYBMw4ULoeCzKfgmdIfYVRLen9C4xNxQYH5LP0f4X/H8w4w7Z5LGOxXg82w6Z1HZUZL81y9JWJx6wQWXAIDLSaHflEBOV57dBtqrqDPlixWC6IV2nxRnqor3gW4zSTKU3WRcmM+05cydWE+Jgx58LY3RLi1Iy8BYY8uFQIjInyosHQbFUoqU8JHRZ68DMY6yJWMWvLy4x5zfqXzHgDPV/WrGH0umChl+lV5PPKM/9DSrYtxfvQ0M9jLCL9aw+QVPI8dS1FxmJTkFZChbNWEH5dvAMwVm8sDqky64SGqJSF/AjGv3zhj4lfx+QPGPdCRmjtYhjEvnmILPI8Zcx4hTGZFur+CYytIwSyMWRadQcurjDmhU2DuMBYn0P0UduiG7M8esvWhBR6I8a6yKa71pxqVBX2NmoZ89kmWYbDiyKSM3YF8NomvTnc7eei/wHGPNEI+7AarSkj2koJWcWYt5ZxZBusIEiScsYfEMjVtxnSPMx7TcYPzUHEapspPPFBrNerDlwoGPNRaGcr5wWVGNNubZswyb4640fasVgcPc0/YqWrsqckVGHsiV0QMH9qH4Ncfolx/SENwfi/4yvSvenTcD1IrJp9BeQy45ZjAmE7+OxvLE895/14X/FAxntxSPYcOXU0QiLFcEuMXbEvYG7XM7kBKXa7zlgf/ocYewEj+SnY1KidalQrM+51RZPLyuglxh5wiOqbhUzthXxFcU2ITTNsHcG4mzLWU8ZZ8vAH+9JLgFrYN08PXFQzYJnxwSDEUCRmEmOxyGvUHjmxpuTU/8ZLMCYfafAZE7EBPU9ff4jXUfp6LtbrtazIB7uV8ap8nEK4Dn9TLiYzhutgLxSVybn0EvI8ZZCSNgO59OUw0gswPh0YzLaaaH548PSalIrcwngWMM2QloJ5Ih+4yCQxbh0JUy40y2tCK+hg3cNG6WLGZZXvFRj/oX7PGO7nynEKPgXv0S3d5BLjjkFo5bRn+lWJ8QhMte4XNPQx08wLvXdmrD5O0QogJSmlexLjhOaBiFyfU2SsA4i6Raa2TQqJ9jszThO8iu8tHrg4q8gYrkwNkr0pBSVrqtnlG+JUBQQmZu6i3pnxlikXgcQmEZPTPcmOV2DHKvv0YjnwE6t5A6XBT3xpp+99GfMFmF31FGzjdL5e2l+TGMONTiv78ad1fim4Tre7FQ2IBzCLHv19GYtTFUe1v1yVz9dLjK2IKNDxvkFKjMW1YmGlE0BIY8dCubdlbIGnMJThwenARXG/U46PxdJROWKwQppupWyLTMSJIHNeomSNTY0ci1uh78q4J9blx3UFPHGeZZf7A5lxG/I8e12MkHvt2Ib3xG6zNNYdgKfz4u8e8Elsa/Dt4grTmzLmIsFTPpyXqQ3zVWHbvbQvvRQHY+NOL2XHubea+wze6cP7phSQ6DtDPJIf7vVT0U03Eic5l1LP3pTxDDxFs/6R9Cx0zo+0lM9tzk1wvfZ0l4B28dEQ5hocRI5oyqmdvjYEU3v72U+SfjcQJUn5BNubMhbr8uPaT8UwnGIK2LflZxW8sSn2QM7PCYpX4hynyACHpXo6QVqUnUsyarTLWeSfMN6+OmPdoNS5/pijBTZ3PMNYDaghP6twiP3TgyCEMS3oplHILADWlbbWH4O86CDuV3p1oDRSuq2FSZXP0kAEXzyT2NhQqj5Yd0Xf8Dss4U59CjYfRycMLw7ZW4flc1pu53MaDAz7GDjDpJW1pPfDpeJcj7vqxsHRMKBoeFCw4OtQvVXrLkL1lDFb7oofQPc6tcuoNfoZv4vFPWu038+sLzyYyHVrNBFFn9qhm/QzGP9sIePnCxk/X/gb08/XYxibdad/UQ3xBJrZNO9U07ySKqMAcvsBevMfXUKhUCgUCoVCoVAoFAqFQqFQKBQKhUKhUCgUCoVCoVAoFAqFQqFQKBQKVaP/A2yzEycBPygsAAAAAElFTkSuQmCC"
+                                    alt="">
+                                <span>Xiaomi</span>
+                            </a>
+                        </li>
+                        <li class="banner_nav-items">
+                            <a href="">
+                                <img src="data:image/png;base64,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"
+                                    alt="">
+                                <span>Oppo</span>
+                            </a>
+                        </li>
+                    </ul>
+                    <iframe width="100%" height="315" src="https://www.youtube.com/embed/mRApZVPSsps" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                </div>
+
+                <div class="body">
+                    <div class="grid__row">
+                        <div class="grid__col">
+                            <div class="product">
+                                <div class="product-img">
+                                    <a href="">
+                                        <img src="https://shope-b3.thaihm.site/publics/uploads/products/thumbnail-1664440258949-9313683.jpg" alt="">
+                                    </a>
+                                </div>
+                                <div class="product-info">
+                                    <p class="product-name">iPhone 11 64GB</p>
+                                    <p class="product-price">₫20,000,000</p>
+                                </div>
+                                <div class="product-status">
+                                    <div class="status-see">
+                                        <a href="">
+                                            <i class="fa-solid fa-eye"></i>
+                                            <span>Xem</span>
+                                        </a>
+                                    </div>
+                                    <div class="status-like">
+                                        <a href="">
+                                            <i class="fa-solid fa-heart"></i>
+                                            <span>Thích</span>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="grid__col">
+                            <div class="product">
+                                <div class="product-img">
+                                    <a href="">
+                                        <img src="https://shope-b3.thaihm.site/publics/uploads/products/thumbnail-1664440388237-971647644.jpg" alt="">
+                                    </a>
+                                </div>
+                                <div class="product-info">
+                                    <p class="product-name">iPhone 13 Pro Max 128GB</p>
+                                    <p class="product-price">₫25,000,000</p>
+                                </div>
+                                <div class="product-status">
+                                    <div class="status-see">
+                                        <a href="">
+                                            <i class="fa-solid fa-eye"></i>
+                                            <span>Xem</span>
+                                        </a>
+                                    </div>
+                                    <div class="status-like">
+                                        <a href="">
+                                            <i class="fa-solid fa-heart"></i>
+                                            <span>Thích</span>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="grid__col">
+                            <div class="product">
+                                <div class="product-img">
+                                    <a href="">
+                                        <img src="https://shope-b3.thaihm.site/publics/uploads/products/thumb-1670560475930-711630050.png" alt="">
+                                    </a>
+                                </div>
+                                <div class="product-info">
+                                    <p class="product-name">Iphone 14 promax</p>
+                                    <p class="product-price">₫35,000,000</p>
+                                </div>
+                                <div class="product-status">
+                                    <div class="status-see">
+                                        <a href="">
+                                            <i class="fa-solid fa-eye"></i>
+                                            <span>Xem</span>
+                                        </a>
+                                    </div>
+                                    <div class="status-like">
+                                        <a href="">
+                                            <i class="fa-solid fa-heart"></i>
+                                            <span>Thích</span>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="grid__col">
+                            <div class="product">
+                                <div class="product-img">
+                                    <a href="">
+                                        <img src="	https://images.shopkees.com/uploads/cdn/images/1000/423802994_1662707244.jpg" alt="">
+                                    </a>
+                                </div>
+                                <div class="product-info">
+                                    <p class="product-name">Apple iPhone 14 Pro</p>
+                                    <p class="product-price">₫34,000,000</p>
+                                </div>
+                                <div class="product-status">
+                                    <div class="status-see">
+                                        <a href="">
+                                            <i class="fa-solid fa-eye"></i>
+                                            <span>Xem</span>
+                                        </a>
+                                    </div>
+                                    <div class="status-like">
+                                        <a href="">
+                                            <i class="fa-solid fa-heart"></i>
+                                            <span>Thích</span>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="grid__row">
+                        <div class="grid__col">
+                            <div class="product">
+                                <div class="product-img">
+                                    <a href="">
+                                        <img src="https://images.shopkees.com/uploads/cdn/images/1000/7264491655_1655448324.jpg" alt="">
+                                    </a>
+                                </div>
+                                <div class="product-info">
+                                    <p class="product-name">Samsung Galaxy M33 Dual</p>
+                                    <p class="product-price">₫16,000,000</p>
+                                </div>
+                                <div class="product-status">
+                                    <div class="status-see">
+                                        <a href="">
+                                            <i class="fa-solid fa-eye"></i>
+                                            <span>Xem</span>
+                                        </a>
+                                    </div>
+                                    <div class="status-like">
+                                        <a href="">
+                                            <i class="fa-solid fa-heart"></i>
+                                            <span>Thích</span>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="grid__col">
+                            <div class="product">
+                                <div class="product-img">
+                                    <a href="">
+                                        <img src="	https://images.shopkees.com/uploads/cdn/images/1000/6799273397_1651728838.jpg" alt="">
+                                    </a>
+                                </div>
+                                <div class="product-info">
+                                    <p class="product-name">Samsung Galaxy A73</p>
+                                    <p class="product-price">₫21,000,000</p>
+                                </div>
+                                <div class="product-status">
+                                    <div class="status-see">
+                                        <a href="">
+                                            <i class="fa-solid fa-eye"></i>
+                                            <span>Xem</span>
+                                        </a>
+                                    </div>
+                                    <div class="status-like">
+                                        <a href="">
+                                            <i class="fa-solid fa-heart"></i>
+                                            <span>Thích</span>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="grid__col">
+                            <div class="product">
+                                <div class="product-img">
+                                    <a href="">
+                                        <img src="https://images.shopkees.com/uploads/cdn/images/1000/8438268949_1641823598.jpg" alt="">
+                                    </a>
+                                </div>
+                                <div class="product-info">
+                                    <p class="product-name">Samsung Galaxy M52</p>
+                                    <p class="product-price">₫25,000,000</p>
+                                </div>
+                                <div class="product-status">
+                                    <div class="status-see">
+                                        <a href="">
+                                            <i class="fa-solid fa-eye"></i>
+                                            <span>Xem</span>
+                                        </a>
+                                    </div>
+                                    <div class="status-like">
+                                        <a href="">
+                                            <i class="fa-solid fa-heart"></i>
+                                            <span>Thích</span>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="grid__col">
+                            <div class="product">
+                                <div class="product-img">
+                                    <a href="">
+                                        <img src="https://shope-b3.thaihm.site/publics/uploads/products/thumbnail-1664440674690-243705967.jpg" alt="">
+                                    </a>
+                                </div>
+                                <div class="product-info">
+                                    <p class="product-name">Samsung Galaxy Z Fold4</p>
+                                    <p class="product-price">₫34,000,000</p>
+                                </div>
+                                <div class="product-status">
+                                    <div class="status-see">
+                                        <a href="">
+                                            <i class="fa-solid fa-eye"></i>
+                                            <span>Xem</span>
+                                        </a>
+                                    </div>
+                                    <div class="status-like">
+                                        <a href="">
+                                            <i class="fa-solid fa-heart"></i>
+                                            <span>Thích</span>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                   
+                    <div class="grid__row">
+                       
+                        <div class="grid__col">
+                            <div class="product">
+                                <div class="product-img">
+                                    <a href="">
+                                        <img src="	https://images.shopkees.com/uploads/cdn/images/1000/4524251582_1609655828.jpg" alt="">
+                                    </a>
+                                </div>
+                                <div class="product-info">
+                                    <p class="product-name">Huawei Nova 7i 8GB</p>
+                                    <p class="product-price">₫15,000,000</p>
+                                </div>
+                                <div class="product-status">
+                                    <div class="status-see">
+                                        <a href="">
+                                            <i class="fa-solid fa-eye"></i>
+                                            <span>Xem</span>
+                                        </a>
+                                    </div>
+                                    <div class="status-like">
+                                        <a href="">
+                                            <i class="fa-solid fa-heart"></i>
+                                            <span>Thích</span>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="grid__col">
+                            <div class="product">
+                                <div class="product-img">
+                                    <a href="">
+                                        <img src="	https://images.shopkees.com/uploads/cdn/images/1000/8033194544_1609655790.jpg" alt="">
+                                    </a>
+                                </div>
+                                <div class="product-info">
+                                    <p class="product-name">Huawei Nova 7i 8GB</p>
+                                    <p class="product-price">₫14,000,000</p>
+                                </div>
+                                <div class="product-status">
+                                    <div class="status-see">
+                                        <a href="">
+                                            <i class="fa-solid fa-eye"></i>
+                                            <span>Xem</span>
+                                        </a>
+                                    </div>
+                                    <div class="status-like">
+                                        <a href="">
+                                            <i class="fa-solid fa-heart"></i>
+                                            <span>Thích</span>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                 
+                </div>
+
+                <div class="img-footer">
+                    <img src="https://b5.nodemy.vn/static/media/homeStort.e166fd6a122f6b477930.png" alt="">
+                </div>
+
+                <div class="footer__above">
+                    <div class="footer__contact1">
+                        <h4>GỌI MUA HÀNG ( 08:30-21:30 )</h4>
+                        <div class="contact-info">
+                            <span class="footer-icon"><i class="fa-solid fa-phone"></i> </span>
+                            <a href="" class="footer-phoneNum">
+                                <span >0366.222.666</span>
+                            </a>
+                        </div>
+                        <p>Tất cả các ngày trong tuần</p>
+                    </div>
+
+                    <div class="footer__contact1">
+                        <h4>GÓP Ý, KHIẾU NẠI ( 08:30-20:30 )</h4>
+                        <div class="contact-info">
+                            <span class="footer-icon"><i class="fa-solid fa-phone"></i> </span>
+                            <a href="" class="footer-phoneNum">
+                                <span >0939.999.999</span>
+                            </a>
+                        </div>
+                        <p>Các ngày trong tuần ( trừ ngày lễ )</p>
+                    </div>
+
+                    <div class="footer__contact2">
+                        <h4>ĐĂNG KÝ NHẬN THÔNG TIN MỚI</h4>
+                        <form action="">
+                            <input type="email" placeholder="Nhập email của bạn">
+                            <button type="submit">Đăng ký</button>
+                        </form>
+                    </div>
+
+                    <div class="footer__contact3">
+                        <h4>THEO DÕI CHÚNG TÔI</h4>
+                        <div class="contact3-icon">
+                            <a href="">
+                                <i class="fa-brands fa-facebook-f"></i>
+                            </a>
+                            <a href="">
+                                <i class="fa-brands fa-youtube"></i>
+                            </a>
+                            <a href="">
+                                <i class="fa-brands fa-instagram"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="footer__below">
+                <div class="grid">
+                    <div class="suport_cus">
+                        <h4>HỖ TRỢ KHÁCH HÀNG</h4>
+                        <p>Hướng dẫn chọn size</p>
+                        <p>Chính sách đổi/Trả</p>
+                        <p>Chính sách bảo mật</p>
+                        <p>Thanh toán, Giao nhận</p>
+                    </div>
+
+                    <div class="about">
+                        <h4>VỀ CHÚNG TÔI</h4>
+                        <img src="/img/Screenshot_2023-05-25_at_09.55.02-removebg-preview.png" alt="">
+                    </div>
+
+                    <div class="shop">
+                        <h4>HỆ THỐNG CỬA HÀNG</h4>
+                    </div>
+
+                    <div class="shop">
+                        <h4>FANPAGE CHÚNG TÔI</h4>
+                    </div>
+                </div>
+
+            </div>
+        </main>
+    </div>
+</body>
+</html>

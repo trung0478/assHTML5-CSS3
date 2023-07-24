@@ -1,0 +1,540 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tmobile</title>
+    <link rel="stylesheet" href="/css/base.css">
+    <link rel="stylesheet" href="/css/style.css">
+    <link rel="stylesheet" href="/font/css/all.min.css">
+    <link rel="icon" href="/img/logoicon.png" type="image/x-icon" />
+</head>
+
+<body>
+    <div class="container">
+        <!-- Begin: header -->
+        <header>
+            <div class="header__above">
+                <div class="grid">
+                    <div class="header__contact">
+                        <i class="fa-solid fa-phone"></i>
+                        <span class="contact-number">0266.666.888</span>
+                    </div>
+                    <ul class="header__info">
+                        <li class="info-login">
+                            <a href="" class="info-link">
+                                <i class="fa-solid fa-user"></i>
+                                <span class="login-text">Đăng nhập</span>
+                            </a>
+                        </li>
+                        <li class="info-cart">
+                            <a href="" class="info-link">
+                                <i class="fa-solid fa-cart-shopping"></i>
+                                <span class="cart-text">Giỏ hàng</span>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="header__below">
+                <div class="grid">
+                    <div class="header__logo">
+                        <a href="index.html">
+                            <img src="/img/Screenshot_2023-05-25_at_09.55.02-removebg-preview.png" alt="">
+                        </a>
+                    </div>
+                    <ul class="header_menu">
+                        <a href="mobile.html" target="_top">
+                            <li class="menu-items">Điện thoại</li>
+                        </a>
+                        <a href="laptop.html">
+                            <li class="menu-items">Laptop</li>
+                        </a>
+                        <a href="mouse.html">
+                            <li class="menu-items">Chuột</li>
+                        </a>
+                        <a href="keyboard.html">
+                            <li class="menu-items">Bàn phím</li>
+                        </a>
+                        <a href="tablet.html">
+                            <li class="menu-items">Máy tính bảng</li>
+                        </a>
+                    </ul>
+                    <div class="header__search">
+                        <form action="">
+                            <input type="text" placeholder="Tìm kiếm" required>
+                            <button type="submit">
+                                <i class="fa-solid fa-magnifying-glass"></i>
+                            </button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </header>
+
+        <!-- Begin: content -->
+        <main>
+            <div class="grid">
+                <div class="banner">
+                    <div class="banner-img">
+                        <img src="https://hoangsoncomputer.com/wp-content/uploads/2019/01/New-Macbook-Pro-Web-Banner.jpg" alt="">
+                    </div>
+                    <ul class="banner_nav-list">
+                        <li class="banner_nav-items">
+                            <a href="">
+                                <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAASkAAACqCAMAAADGFElyAAAAflBMVEX///8AAAD8/Pz09PTk5OT5+fnExMTQ0NDu7u7IyMi9vb3c3Nzx8fEZGRl1dXU9PT0lJSUsLCxlZWUeHh6srKy0tLRgYGBJSUkTExMyMjKRkZHe3t5VVVWZmZnPz88qKiqioqKDg4NQUFB5eXltbW2SkpKbm5tFRUU7Ozt+fn6nRY4fAAAEWElEQVR4nO2d23biMAxFYyCQhBJKG2i4dCZQevv/H5yBtIXgAC2RK6/D2c95kM7yRZZkJwgIIYQQQgghhBBCCCGEEEIIIYT4QqebtbVt8J92kubGmJ62Hb7TWQ7Mlq62JX4TpeYTKnWKwuzg7DtOtNoTysy1zfGXeF8nk0fa9njLuCKUGWrb4y1ZVSiTahvkK8mBUCbRtshT+odCmVDbJD8Jbw+Fmmib5Clra0j90TbJT/5YQr1qm+QpU0sprue1jC2hHrRN8pShpVRf2yQ/iS2hZtomeYq18a20LfKUljWkeDauxwoROtoW+cojV/NvsqjolHNEHWW0L9SkpW2Ox+R7Qo21jfGZcKfT8kbbGL/5GFOjZxaNz7Ay+XQy63GBOksrDKlShdbNPB5nWdKPTgvT7mWzdDKZpLOi27m+HHGUpLuMwfA9ObYm9V+q4dVoPb6qs0236v6GdWx/FhV2Sm8TY11L3b01vq/z3wweK+F42J3UfrYdhFfRzdGtHScld8nnOtSfWdWZ6riCP+SEdtXlQKws7iXL0Zmv/pNpu+KWXv3Eu4gUOZawSuiNWOGGDIdNGU0ZokolLZQxC8wJKDv1SiBbhXoOhDKm0HZLHrt7RYIcsAqfnnf75ywAU1hdF0IhlpZbJ44wF1Noe+UC+QAB9DhjF9Cb86LtlBMcDCnISKqux64pU8yDjN222RjQZoUncaGW2i65IRRMSpXkmHPPweTD3PeC4FlcKdR+hQdpoUAjhCCQFgr2Zoh9raop2h65QjzXeaftkSsOO1wbU2h75ArxuBO21G53azQEttD+Kq0UajQlnkjIAZPnJd/oxvgR97BK/RVWagCrlHihD3adkh5TuJfYxFPDoPlOB1EC7GUa8cgTNDVc955GQ960PXLFTFop2M1PviwKWWcPXLS5oL7IMRdXCvYZRnmlULOeDnqnQAeVfLHdTLV9coOLNrNnbaecIF/GMqA1v7Z4B8cGyGz68SuNDbhFjNSL835fwAgwT+Ug9twCmKgST3t+gJepWjpSytyhVR/c3MPakoFd8XMSJ5SMsKagfDZvB9bLjK52vw1YYypYnff4UsA6ru2nhKVAa49t5ed9vgy4VJWrNR3vlyE3jpQCW883vDsRagC2nm/oOFEK8gaNk0EFdpYpiRwIVWg75Qb57W8EuEptaImfkwHfKimRvkGD2p8QiJceIMszJbLh56O2Oy6RPCjDtuaVCPYoAM+9DXKPBhXarrhGKvu50HbEPTIFZdzLM3uIdF3D5e/qCAUqytABwo7mUdWTtgu/RdOS8hWs5p80OwDipc5PcFyq24dJ+v60Xrwd/WIFmb07iv3fx+20KuZfu38UL2uzNGtNszXoWBe5By9Wk11sl56L3zdVneqzVIv6rFxnOdj/6g6wY/EbRF9/tXh4PH7cbSfpxywczea/aJ1ndJIsG/fOZsPb/TjuIfYKE0IIIYQQQgghhBBCCCGEEEKIR/wDbn44CF+9YWcAAAAASUVORK5CYII="
+                                    alt="">
+                                <span>MacOS</span>
+                            </a>
+                        </li>
+                        <li class="banner_nav-items">
+                            <a href="">
+                                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRNEad4M6dtJUxyIXtoHc3vKJ17DZQ-3Olung&usqp=CAU"
+                                    alt="">
+                                <span>Dell</span>
+                            </a>
+                        </li>
+                        <li class="banner_nav-items">
+                            <a href="">
+                                <img src="data:image/png;base64,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"
+                                    alt="">
+                                <span>HP</span>
+                            </a>
+                        </li>
+                        <li class="banner_nav-items">
+                            <a href="">
+                                <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAASwAAACoCAMAAABt9SM9AAAAgVBMVEX///8AAAChoaHY2Nizs7OXl5c2Njb7+/sZGRkeHh5ERESamprf39/t7e1WVlaLi4txcXHm5uZcXFyqqqr09PTS0tI/Pz/d3d3IyMhbW1thYWHExMTw8PARERHLy8tmZmaDg4NNTU0vLy+7u7t6eno6OjptbW0mJiaHh4cMDAxJSUnCEQLAAAAGBklEQVR4nO2ca3uiPBCGEaXWoqLiqbX1hLWH//8DX7DWkjCQgRnaa6/3uT/tLkkYbpKQk+t5AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAD+72xPn3cVHIN84mE8eeg0ZOR5nXuDTsiKcPZi5jrlL86T/eG+aUgp3Rqq5p+u0qKfxL4kqossi6A8sBxjK9fk51LiDN9FDVlzd2k3WbEwLH1ZizdhSJ1aspbu0q6y+o2b3zfqsvbSiDL4snxGaV+ypvKwtGWJW+AFtiyWgUjJlbasO4WQOjVkMRrhlywNV8qyXjVC6vBl8XrsTJZKWKqyHlVC6rBlMb6EGamss0pYmrISlYgymLKeeKVF3konLE1ZOhFl8GStmaVFXKsuFGVJh3w5eLK4pUXM5upEUZZoJmHCkhVxSws4gzEOarJOSv3CBY4s/mAgPCqFpSeL/aIZcGSxhlgX1D7SarL2A62QOixZij0km8ayDlYu++8iOLL8Xyece15o/duWJatn5bL/Lopq5Ha1WT2z4lRmOur/xW1FXMe/r7u9nyymvxj/5VsxWD5O3oM4WXd/89aNsdvt8XHCaxBS7DWxyJ3lr5kQ/dzt4mi5OwV+b7MYttBQbVm8Dv4vWRCuFrerxgDs43U88dZxsl3pdDbNZK39XrLtTv+kl30pusrtl9ij1Rdv8/2n5WwSpXWuO503vXUzWcFPhreHx/Op50VxslmsmsfBhhr+5i7bsgZen8jQeTvs9kHtKtdMVmjlOudXSS/6ojCzNxxp26PmOZuK64PiCNrmg13ldGRVrzocP58m++DacoWdB7F0/ZS/TsjaFLNUxDo+v4fxZkGK05JFVvYS0qp3kbdJW0HNmkctIRj6CVmNV0SO44lvTCe0miF/zaQY0yzgDpOeiew9IwUlq1bVKhD8vAwdWTtPulT6zqpih2LGg5mCkiVdK431ZW1lEXHuTK3zWzNJUpZ0afKzry2LtT9cxdFVuah+0bfS0LKkS8sfz4qyvj5I4lWmafVdiS2tOzsNLcubS9dL59qy5Nthlbaodl7IMLQSDL4vvMsiG6jL8obSFdOqURiRvDjtL5XlTWXd/E5N1ux2RdhxPZTfk6gag2KqclmpLtFOQaIvy/N6orM0cdktbQsZxAJ0layUlX96WhJTcQ5tyEp7001wenpoGFJZQyROyZ2IZA5ZV/qj1Tbxo3riIiVZY72Q9rw7ZlDpeLLIKJ2vt3D+TFOWGVJ3nYU0W344QiKr1ohIuKYS1pdlRpmKi7N2QQ1j48MvyTJD6q57peLIXos4Ebojy5bJMpgGVlnL2R/IytOf2t/PA5GqR0ilOzdFWcVRtt1v1l4pFcryioeHiimo2UpCF6Yqy7U48M4qxN5gEcmyQyomIIaTVP3L+FVZhckWq5Cy0HlY87bCfJpajyrbK1GV5Zx/L9xlFLsQmSyXByJK9thVJOtkFVYcWzim/h61aSCSZYdk1yz7espraWG2rPthtynbnX1b4pscDftVDO3ePZOV9JoSFV6X9fjd4u0qXig1K9LiqHPWyx6AiLAen1jIqPhktynrTNTxBlDHD5piNWmiHlf1Q23K8nWOrxNP1Lws4+GpTdWq025tyhpSm0v1kW02mayMhyd+47KvcNWmrEGdo6wVaJ01T3kznp1a1q9y1aasWOdnJI+Kv68wRlDUS6jekG1RVla8a8mEwbrO5r0D49GJMx3nSlctyrrsfMv7mzvxvtwPxmY8VesdB0tak3X9SIuHWkM9Wea4gUhQstjQvqzrS5K2IV++43vDmOoQozfn8kZbsm5zBmrNls/eo0+3NGGYf27q8Kjz+EhLsnLzK4mtQK77hjnEIvYPShcb2pX1YLyj/qFpOVuFunnlaB6IIXZEl05XrcgqvCJqldvN9/a5xs/bQ/dTu1eP9GW92Od0LsR1zym8hLfPuFxWYA8JiMOjnP8nR/OHj2n7C0rnoatwzB6hzvx8ByN6n2+7sM7/1QMAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA4B/mPweYZ3/hed4iAAAAAElFTkSuQmCC"
+                                    alt="">
+                                <span>Asus</span>
+                            </a>
+                        </li>
+                        <li class="banner_nav-items">
+                            <a href="">
+                                <img src="data:image/png;base64,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"
+                                    alt="">
+                                <span>Lenovo</span>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+
+                <div class="body">
+                    
+                    <div class="grid__row">
+                        <div class="grid__col">
+                            <div class="product">
+                                <div class="product-img">
+                                    <a href="">
+                                        <img src="	https://images.shopkees.com/uploads/cdn/images/1000/9472077453_1655454923.jpg" alt="">
+                                    </a>
+                                </div>
+                                <div class="product-info">
+                                    <p class="product-name">Apple MacBook Air M2</p>
+                                    <p class="product-price">₫39,000,000</p>
+                                </div>
+                                <div class="product-status">
+                                    <div class="status-see">
+                                        <a href="">
+                                            <i class="fa-solid fa-eye"></i>
+                                            <span>Xem</span>
+                                        </a>
+                                    </div>
+                                    <div class="status-like">
+                                        <a href="">
+                                            <i class="fa-solid fa-heart"></i>
+                                            <span>Thích</span>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="grid__col">
+                            <div class="product">
+                                <div class="product-img">
+                                    <a href="">
+                                        <img src="	https://images.shopkees.com/uploads/cdn/images/1000/4544155749_1655455090.jpg" alt="">
+                                    </a>
+                                </div>
+                                <div class="product-info">
+                                    <p class="product-name">Apple MacBook Air M1</p>
+                                    <p class="product-price">₫37,549,000</p>
+                                </div>
+                                <div class="product-status">
+                                    <div class="status-see">
+                                        <a href="">
+                                            <i class="fa-solid fa-eye"></i>
+                                            <span>Xem</span>
+                                        </a>
+                                    </div>
+                                    <div class="status-like">
+                                        <a href="">
+                                            <i class="fa-solid fa-heart"></i>
+                                            <span>Thích</span>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="grid__col">
+                            <div class="product">
+                                <div class="product-img">
+                                    <a href="">
+                                        <img src="https://images.shopkees.com/uploads/cdn/images/1000/4287131698_1635680025.jpg" alt="">
+                                    </a>
+                                </div>
+                                <div class="product-info">
+                                    <p class="product-name">Apple Macbook Pro 16</p>
+                                    <p class="product-price">₫87,699,000</p>
+                                </div>
+                                <div class="product-status">
+                                    <div class="status-see">
+                                        <a href="">
+                                            <i class="fa-solid fa-eye"></i>
+                                            <span>Xem</span>
+                                        </a>
+                                    </div>
+                                    <div class="status-like">
+                                        <a href="">
+                                            <i class="fa-solid fa-heart"></i>
+                                            <span>Thích</span>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="grid__col">
+                            <div class="product">
+                                <div class="product-img">
+                                    <a href="">
+                                        <img src="https://images.shopkees.com/uploads/cdn/images/1000/7061459670_1635680217.jpg" alt="">
+                                    </a>
+                                </div>
+                                <div class="product-info">
+                                    <p class="product-name">Apple Macbook Pro 16</p>
+                                    <p class="product-price">₫69,999,000</p>
+                                </div>
+                                <div class="product-status">
+                                    <div class="status-see">
+                                        <a href="">
+                                            <i class="fa-solid fa-eye"></i>
+                                            <span>Xem</span>
+                                        </a>
+                                    </div>
+                                    <div class="status-like">
+                                        <a href="">
+                                            <i class="fa-solid fa-heart"></i>
+                                            <span>Thích</span>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="grid__row">
+                        <div class="grid__col">
+                            <div class="product">
+                                <div class="product-img">
+                                    <a href="">
+                                        <img src="https://images.shopkees.com/uploads/cdn/images/1000/4839606396_1644827164.jpg" alt="">
+                                    </a>
+                                </div>
+                                <div class="product-info">
+                                    <p class="product-name">Dell Latitude 3520 Intel i7</p>
+                                    <p class="product-price">₫26,000,000</p>
+                                </div>
+                                <div class="product-status">
+                                    <div class="status-see">
+                                        <a href="">
+                                            <i class="fa-solid fa-eye"></i>
+                                            <span>Xem</span>
+                                        </a>
+                                    </div>
+                                    <div class="status-like">
+                                        <a href="">
+                                            <i class="fa-solid fa-heart"></i>
+                                            <span>Thích</span>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="grid__col">
+                            <div class="product">
+                                <div class="product-img">
+                                    <a href="">
+                                        <img src="https://images.shopkees.com/uploads/cdn/images/1000/1922982683_1637905709.jpg" alt="">
+                                    </a>
+                                </div>
+                                <div class="product-info">
+                                    <p class="product-name">Dell XPS 17 Intel i7</p>
+                                    <p class="product-price">₫37,549,000</p>
+                                </div>
+                                <div class="product-status">
+                                    <div class="status-see">
+                                        <a href="">
+                                            <i class="fa-solid fa-eye"></i>
+                                            <span>Xem</span>
+                                        </a>
+                                    </div>
+                                    <div class="status-like">
+                                        <a href="">
+                                            <i class="fa-solid fa-heart"></i>
+                                            <span>Thích</span>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="grid__col">
+                            <div class="product">
+                                <div class="product-img">
+                                    <a href="">
+                                        <img src="https://images.shopkees.com/uploads/cdn/images/1000/4989739268_1644656140.jpg" alt="">
+                                    </a>
+                                </div>
+                                <div class="product-info">
+                                    <p class="product-name">Dell Latitude 5520 Intel i5</p>
+                                    <p class="product-price">₫17,699,000</p>
+                                </div>
+                                <div class="product-status">
+                                    <div class="status-see">
+                                        <a href="">
+                                            <i class="fa-solid fa-eye"></i>
+                                            <span>Xem</span>
+                                        </a>
+                                    </div>
+                                    <div class="status-like">
+                                        <a href="">
+                                            <i class="fa-solid fa-heart"></i>
+                                            <span>Thích</span>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="grid__col">
+                            <div class="product">
+                                <div class="product-img">
+                                    <a href="">
+                                        <img src="	https://images.shopkees.com/uploads/cdn/images/1000/428555352_1656575942.jpg" alt="">
+                                    </a>
+                                </div>
+                                <div class="product-info">
+                                    <p class="product-name">Laptop Dell Vostro 5410</p>
+                                    <p class="product-price">₫19,999,000</p>
+                                </div>
+                                <div class="product-status">
+                                    <div class="status-see">
+                                        <a href="">
+                                            <i class="fa-solid fa-eye"></i>
+                                            <span>Xem</span>
+                                        </a>
+                                    </div>
+                                    <div class="status-like">
+                                        <a href="">
+                                            <i class="fa-solid fa-heart"></i>
+                                            <span>Thích</span>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="grid__row">
+                        <div class="grid__col">
+                            <div class="product">
+                                <div class="product-img">
+                                    <a href="">
+                                        <img src="	https://images.shopkees.com/uploads/cdn/images/1000/6287527865_1649138674.jpg" alt="">
+                                    </a>
+                                </div>
+                                <div class="product-info">
+                                    <p class="product-name">Asus Strix G17 AMD Ryzen 7</p>
+                                    <p class="product-price">₫30,000,000</p>
+                                </div>
+                                <div class="product-status">
+                                    <div class="status-see">
+                                        <a href="">
+                                            <i class="fa-solid fa-eye"></i>
+                                            <span>Xem</span>
+                                        </a>
+                                    </div>
+                                    <div class="status-like">
+                                        <a href="">
+                                            <i class="fa-solid fa-heart"></i>
+                                            <span>Thích</span>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="grid__col">
+                            <div class="product">
+                                <div class="product-img">
+                                    <a href="">
+                                        <img src="	https://images.shopkees.com/uploads/cdn/images/1000/5187907434_1660375403.jpg" alt="">
+                                    </a>
+                                </div>
+                                <div class="product-info">
+                                    <p class="product-name">Asus TUF Gaming F15 FX506 Intel i5</p>
+                                    <p class="product-price">₫25,549,000</p>
+                                </div>
+                                <div class="product-status">
+                                    <div class="status-see">
+                                        <a href="">
+                                            <i class="fa-solid fa-eye"></i>
+                                            <span>Xem</span>
+                                        </a>
+                                    </div>
+                                    <div class="status-like">
+                                        <a href="">
+                                            <i class="fa-solid fa-heart"></i>
+                                            <span>Thích</span>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="grid__col">
+                            <div class="product">
+                                <div class="product-img">
+                                    <a href="">
+                                        <img src="	https://images.shopkees.com/uploads/cdn/images/1000/4901892005_1654417264.jpg" alt="">
+                                    </a>
+                                </div>
+                                <div class="product-info">
+                                    <p class="product-name">Asus ROG Zephyrus M16 Intel i7</p>
+                                    <p class="product-price">₫47,699,000</p>
+                                </div>
+                                <div class="product-status">
+                                    <div class="status-see">
+                                        <a href="">
+                                            <i class="fa-solid fa-eye"></i>
+                                            <span>Xem</span>
+                                        </a>
+                                    </div>
+                                    <div class="status-like">
+                                        <a href="">
+                                            <i class="fa-solid fa-heart"></i>
+                                            <span>Thích</span>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="grid__col">
+                            <div class="product">
+                                <div class="product-img">
+                                    <a href="">
+                                        <img src="https://images.shopkees.com/uploads/cdn/images/1000/1764802331_1646377992.jpg" alt="">
+                                    </a>
+                                </div>
+                                <div class="product-info">
+                                    <p class="product-name">Asus TUF Dash A15 AMD Ryzen7</p>
+                                    <p class="product-price">₫29,999,000</p>
+                                </div>
+                                <div class="product-status">
+                                    <div class="status-see">
+                                        <a href="">
+                                            <i class="fa-solid fa-eye"></i>
+                                            <span>Xem</span>
+                                        </a>
+                                    </div>
+                                    <div class="status-like">
+                                        <a href="">
+                                            <i class="fa-solid fa-heart"></i>
+                                            <span>Thích</span>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    
+                </div>
+
+                <div class="img-footer">
+                    <img src="https://b5.nodemy.vn/static/media/homeStort.e166fd6a122f6b477930.png" alt="">
+                </div>
+
+                <div class="footer__above">
+                    <div class="footer__contact1">
+                        <h4>GỌI MUA HÀNG ( 08:30-21:30 )</h4>
+                        <div class="contact-info">
+                            <span class="footer-icon"><i class="fa-solid fa-phone"></i> </span>
+                            <a href="" class="footer-phoneNum">
+                                <span >0366.222.666</span>
+                            </a>
+                        </div>
+                        <p>Tất cả các ngày trong tuần</p>
+                    </div>
+
+                    <div class="footer__contact1">
+                        <h4>GÓP Ý, KHIẾU NẠI ( 08:30-20:30 )</h4>
+                        <div class="contact-info">
+                            <span class="footer-icon"><i class="fa-solid fa-phone"></i> </span>
+                            <a href="" class="footer-phoneNum">
+                                <span >0939.999.999</span>
+                            </a>
+                        </div>
+                        <p>Các ngày trong tuần ( trừ ngày lễ )</p>
+                    </div>
+
+                    <div class="footer__contact2">
+                        <h4>ĐĂNG KÝ NHẬN THÔNG TIN MỚI</h4>
+                        <form action="">
+                            <input type="email" placeholder="Nhập email của bạn">
+                            <button type="submit">Đăng ký</button>
+                        </form>
+                    </div>
+
+                    <div class="footer__contact3">
+                        <h4>THEO DÕI CHÚNG TÔI</h4>
+                        <div class="contact3-icon">
+                            <a href="">
+                                <i class="fa-brands fa-facebook-f"></i>
+                            </a>
+                            <a href="">
+                                <i class="fa-brands fa-youtube"></i>
+                            </a>
+                            <a href="">
+                                <i class="fa-brands fa-instagram"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="footer__below">
+                <div class="grid">
+                    <div class="suport_cus">
+                        <h4>HỖ TRỢ KHÁCH HÀNG</h4>
+                        <p>Hướng dẫn chọn size</p>
+                        <p>Chính sách đổi/Trả</p>
+                        <p>Chính sách bảo mật</p>
+                        <p>Thanh toán, Giao nhận</p>
+                    </div>
+
+                    <div class="about">
+                        <h4>VỀ CHÚNG TÔI</h4>
+                        <img src="/img/Screenshot_2023-05-25_at_09.55.02-removebg-preview.png" alt="">
+                    </div>
+
+                    <div class="shop">
+                        <h4>HỆ THỐNG CỬA HÀNG</h4>
+                    </div>
+
+                    <div class="shop">
+                        <h4>FANPAGE CHÚNG TÔI</h4>
+                    </div>
+                </div>
+
+            </div>
+        </main>
+    </div>
+</body>
+
+</html>

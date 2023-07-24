@@ -1,0 +1,365 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tmobile</title>
+    <link rel="stylesheet" href="/css/base.css">
+    <link rel="stylesheet" href="/css/style.css">
+    <link rel="stylesheet" href="/font/css/all.min.css">
+    <link rel="icon" href="/img/logoicon.png" type="image/x-icon" />
+</head>
+
+<body>
+    <div class="container">
+        <!-- Begin: header -->
+        <header>
+            <div class="header__above">
+                <div class="grid">
+                    <div class="header__contact">
+                        <i class="fa-solid fa-phone"></i>
+                        <span class="contact-number">0266.666.888</span>
+                    </div>
+                    <ul class="header__info">
+                        <li class="info-login">
+                            <a href="" class="info-link">
+                                <i class="fa-solid fa-user"></i>
+                                <span class="login-text">Đăng nhập</span>
+                            </a>
+                        </li>
+                        <li class="info-cart">
+                            <a href="" class="info-link">
+                                <i class="fa-solid fa-cart-shopping"></i>
+                                <span class="cart-text">Giỏ hàng</span>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="header__below">
+                <div class="grid">
+                    <div class="header__logo">
+                        <a href="index.html">
+                            <img src="/img/Screenshot_2023-05-25_at_09.55.02-removebg-preview.png" alt="">
+                        </a>
+                    </div>
+                    <ul class="header_menu">
+                        <a href="mobile.html" target="_top">
+                            <li class="menu-items">Điện thoại</li>
+                        </a>
+                        <a href="laptop.html">
+                            <li class="menu-items">Laptop</li>
+                        </a>
+                        <a href="mouse.html">
+                            <li class="menu-items">Chuột</li>
+                        </a>
+                        <a href="keyboard.html">
+                            <li class="menu-items">Bàn phím</li>
+                        </a>
+                        <a href="tablet.html">
+                            <li class="menu-items">Máy tính bảng</li>
+                        </a>
+                    </ul>
+                    <div class="header__search">
+                        <form action="">
+                            <input type="text" placeholder="Tìm kiếm" required>
+                            <button type="submit">
+                                <i class="fa-solid fa-magnifying-glass"></i>
+                            </button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </header>
+
+        <!-- Begin: content -->
+        <main>
+            <div class="grid">
+                <div class="banner">
+                    <div class="banner-img">
+                        <img src="https://mylook.vn/uploads/media/lib/46806_Keyboard-DuckyOne2-RGB.jpg" alt="">
+                    </div>
+                    <ul class="banner_nav-list">
+                        <li class="banner_nav-items">
+                            <a href="">
+                                <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAASkAAACqCAMAAADGFElyAAAAflBMVEX///8AAAD8/Pz09PTk5OT5+fnExMTQ0NDu7u7IyMi9vb3c3Nzx8fEZGRl1dXU9PT0lJSUsLCxlZWUeHh6srKy0tLRgYGBJSUkTExMyMjKRkZHe3t5VVVWZmZnPz88qKiqioqKDg4NQUFB5eXltbW2SkpKbm5tFRUU7Ozt+fn6nRY4fAAAEWElEQVR4nO2d23biMAxFYyCQhBJKG2i4dCZQevv/H5yBtIXgAC2RK6/D2c95kM7yRZZkJwgIIYQQQgghhBBCCCGEEEIIIYT4QqebtbVt8J92kubGmJ62Hb7TWQ7Mlq62JX4TpeYTKnWKwuzg7DtOtNoTysy1zfGXeF8nk0fa9njLuCKUGWrb4y1ZVSiTahvkK8mBUCbRtshT+odCmVDbJD8Jbw+Fmmib5Clra0j90TbJT/5YQr1qm+QpU0sprue1jC2hHrRN8pShpVRf2yQ/iS2hZtomeYq18a20LfKUljWkeDauxwoROtoW+cojV/NvsqjolHNEHWW0L9SkpW2Ox+R7Qo21jfGZcKfT8kbbGL/5GFOjZxaNz7Ay+XQy63GBOksrDKlShdbNPB5nWdKPTgvT7mWzdDKZpLOi27m+HHGUpLuMwfA9ObYm9V+q4dVoPb6qs0236v6GdWx/FhV2Sm8TY11L3b01vq/z3wweK+F42J3UfrYdhFfRzdGtHScld8nnOtSfWdWZ6riCP+SEdtXlQKws7iXL0Zmv/pNpu+KWXv3Eu4gUOZawSuiNWOGGDIdNGU0ZokolLZQxC8wJKDv1SiBbhXoOhDKm0HZLHrt7RYIcsAqfnnf75ywAU1hdF0IhlpZbJ44wF1Noe+UC+QAB9DhjF9Cb86LtlBMcDCnISKqux64pU8yDjN222RjQZoUncaGW2i65IRRMSpXkmHPPweTD3PeC4FlcKdR+hQdpoUAjhCCQFgr2Zoh9raop2h65QjzXeaftkSsOO1wbU2h75ArxuBO21G53azQEttD+Kq0UajQlnkjIAZPnJd/oxvgR97BK/RVWagCrlHihD3adkh5TuJfYxFPDoPlOB1EC7GUa8cgTNDVc955GQ960PXLFTFop2M1PviwKWWcPXLS5oL7IMRdXCvYZRnmlULOeDnqnQAeVfLHdTLV9coOLNrNnbaecIF/GMqA1v7Z4B8cGyGz68SuNDbhFjNSL835fwAgwT+Ug9twCmKgST3t+gJepWjpSytyhVR/c3MPakoFd8XMSJ5SMsKagfDZvB9bLjK52vw1YYypYnff4UsA6ru2nhKVAa49t5ed9vgy4VJWrNR3vlyE3jpQCW883vDsRagC2nm/oOFEK8gaNk0EFdpYpiRwIVWg75Qb57W8EuEptaImfkwHfKimRvkGD2p8QiJceIMszJbLh56O2Oy6RPCjDtuaVCPYoAM+9DXKPBhXarrhGKvu50HbEPTIFZdzLM3uIdF3D5e/qCAUqytABwo7mUdWTtgu/RdOS8hWs5p80OwDipc5PcFyq24dJ+v60Xrwd/WIFmb07iv3fx+20KuZfu38UL2uzNGtNszXoWBe5By9Wk11sl56L3zdVneqzVIv6rFxnOdj/6g6wY/EbRF9/tXh4PH7cbSfpxywczea/aJ1ndJIsG/fOZsPb/TjuIfYKE0IIIYQQQgghhBBCCCGEEEKIR/wDbn44CF+9YWcAAAAASUVORK5CYII="
+                                    alt="">
+                                <span>Apple</span>
+                            </a>
+                        </li>
+                        <li class="banner_nav-items">
+                            <a href="">
+                                <img src="data:image/png;base64,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"
+                                    alt="">
+                                <span>Logitech</span>
+                            </a>
+                        </li>
+                        <li class="banner_nav-items">
+                            <a href="">
+                                <img src="https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcSShkMmNRe1zXcu37dahbBPviSXvrhulXtGYmSxlXOUenwKhdcjLO7ZhatL" alt="">
+                                <span>Razer</span>
+                            </a>
+                        </li>
+                        <li class="banner_nav-items">
+                            <a href="">
+                                <img src="https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcR9ue2dPN8s3Dy5po4KOYlCvIIgoCiy7tpxEcIkmqInqvEksGqYpmXDpOk" alt="">
+                                <span>Corsair</span>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+
+                <div class="body">
+                    <div class="grid__row">
+                        <div class="grid__col">
+                            <div class="product">
+                                <div class="product-img">
+                                    <a href="">
+                                        <img src="https://images.shopkees.com/uploads/cdn/images/1000/9460756789_1598082870.jpg" alt="">
+                                    </a>
+                                </div>
+                                <div class="product-info">
+                                    <p class="product-name">Apple Magic Keyboard </p>
+                                    <p class="product-price">₫4,000,000</p>
+                                </div>
+                                <div class="product-status">
+                                    <div class="status-see">
+                                        <a href="">
+                                            <i class="fa-solid fa-eye"></i>
+                                            <span>Xem</span>
+                                        </a>
+                                    </div>
+                                    <div class="status-like">
+                                        <a href="">
+                                            <i class="fa-solid fa-heart"></i>
+                                            <span>Thích</span>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="grid__col">
+                            <div class="product">
+                                <div class="product-img">
+                                    <a href="">
+                                        <img src="	https://images.shopkees.com/uploads/cdn/images/1000/2027472929_1628507126.jpg" alt="">
+                                    </a>
+                                </div>
+                                <div class="product-info">
+                                    <p class="product-name">Apple Magic Keyboard</p>
+                                    <p class="product-price">₫5,499,000</p>
+                                </div>
+                                <div class="product-status">
+                                    <div class="status-see">
+                                        <a href="">
+                                            <i class="fa-solid fa-eye"></i>
+                                            <span>Xem</span>
+                                        </a>
+                                    </div>
+                                    <div class="status-like">
+                                        <a href="">
+                                            <i class="fa-solid fa-heart"></i>
+                                            <span>Thích</span>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="grid__col">
+                            <div class="product">
+                                <div class="product-img">
+                                    <a href="">
+                                        <img src="	https://images.shopkees.com/uploads/cdn/images/1000/1706238624_1646218787.jpg" alt="">
+                                    </a>
+                                </div>
+                                <div class="product-info">
+                                    <p class="product-name">Logitech MX Keys Advanced</p>
+                                    <p class="product-price">₫3,500,000</p>
+                                </div>
+                                <div class="product-status">
+                                    <div class="status-see">
+                                        <a href="">
+                                            <i class="fa-solid fa-eye"></i>
+                                            <span>Xem</span>
+                                        </a>
+                                    </div>
+                                    <div class="status-like">
+                                        <a href="">
+                                            <i class="fa-solid fa-heart"></i>
+                                            <span>Thích</span>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="grid__col">
+                            <div class="product">
+                                <div class="product-img">
+                                    <a href="">
+                                        <img src="https://images.shopkees.com/uploads/cdn/images/1000/9765762734_1623312853.jpg" alt="">
+                                    </a>
+                                </div>
+                                <div class="product-info">
+                                    <p class="product-name">Logitech G513 RGB USB</p>
+                                    <p class="product-price">₫4,900,000</p>
+                                </div>
+                                <div class="product-status">
+                                    <div class="status-see">
+                                        <a href="">
+                                            <i class="fa-solid fa-eye"></i>
+                                            <span>Xem</span>
+                                        </a>
+                                    </div>
+                                    <div class="status-like">
+                                        <a href="">
+                                            <i class="fa-solid fa-heart"></i>
+                                            <span>Thích</span>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="grid__row">
+                        <div class="grid__col">
+                            <div class="product">
+                                <div class="product-img">
+                                    <a href="">
+                                        <img src="https://images.shopkees.com/uploads/cdn/images/1000/2016338225_1593005531.jpg" alt="">
+                                    </a>
+                                </div>
+                                <div class="product-info">
+                                    <p class="product-name">Microsoft Surface Pro</p>
+                                    <p class="product-price">₫3,000,000</p>
+                                </div>
+                                <div class="product-status">
+                                    <div class="status-see">
+                                        <a href="">
+                                            <i class="fa-solid fa-eye"></i>
+                                            <span>Xem</span>
+                                        </a>
+                                    </div>
+                                    <div class="status-like">
+                                        <a href="">
+                                            <i class="fa-solid fa-heart"></i>
+                                            <span>Thích</span>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="grid__col">
+                            <div class="product">
+                                <div class="product-img">
+                                    <a href="">
+                                        <img src="https://images.shopkees.com/uploads/cdn/images/1000/4634803881_1593003516.jpg" alt="">
+                                    </a>
+                                </div>
+                                <div class="product-info">
+                                    <p class="product-name">Microsoft Surface Pro 8</p>
+                                    <p class="product-price">₫2,549,000</p>
+                                </div>
+                                <div class="product-status">
+                                    <div class="status-see">
+                                        <a href="">
+                                            <i class="fa-solid fa-eye"></i>
+                                            <span>Xem</span>
+                                        </a>
+                                    </div>
+                                    <div class="status-like">
+                                        <a href="">
+                                            <i class="fa-solid fa-heart"></i>
+                                            <span>Thích</span>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                       
+                    </div>
+                    
+                </div>
+
+                <div class="img-footer">
+                    <img src="https://b5.nodemy.vn/static/media/homeStort.e166fd6a122f6b477930.png" alt="">
+                </div>
+
+                <div class="footer__above">
+                    <div class="footer__contact1">
+                        <h4>GỌI MUA HÀNG ( 08:30-21:30 )</h4>
+                        <div class="contact-info">
+                            <span class="footer-icon"><i class="fa-solid fa-phone"></i> </span>
+                            <a href="" class="footer-phoneNum">
+                                <span >0366.222.666</span>
+                            </a>
+                        </div>
+                        <p>Tất cả các ngày trong tuần</p>
+                    </div>
+
+                    <div class="footer__contact1">
+                        <h4>GÓP Ý, KHIẾU NẠI ( 08:30-20:30 )</h4>
+                        <div class="contact-info">
+                            <span class="footer-icon"><i class="fa-solid fa-phone"></i> </span>
+                            <a href="" class="footer-phoneNum">
+                                <span >0939.999.999</span>
+                            </a>
+                        </div>
+                        <p>Các ngày trong tuần ( trừ ngày lễ )</p>
+                    </div>
+
+                    <div class="footer__contact2">
+                        <h4>ĐĂNG KÝ NHẬN THÔNG TIN MỚI</h4>
+                        <form action="">
+                            <input type="email" placeholder="Nhập email của bạn">
+                            <button type="submit">Đăng ký</button>
+                        </form>
+                    </div>
+
+                    <div class="footer__contact3">
+                        <h4>THEO DÕI CHÚNG TÔI</h4>
+                        <div class="contact3-icon">
+                            <a href="">
+                                <i class="fa-brands fa-facebook-f"></i>
+                            </a>
+                            <a href="">
+                                <i class="fa-brands fa-youtube"></i>
+                            </a>
+                            <a href="">
+                                <i class="fa-brands fa-instagram"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="footer__below">
+                <div class="grid">
+                    <div class="suport_cus">
+                        <h4>HỖ TRỢ KHÁCH HÀNG</h4>
+                        <p>Hướng dẫn chọn size</p>
+                        <p>Chính sách đổi/Trả</p>
+                        <p>Chính sách bảo mật</p>
+                        <p>Thanh toán, Giao nhận</p>
+                    </div>
+
+                    <div class="about">
+                        <h4>VỀ CHÚNG TÔI</h4>
+                        <img src="/img/Screenshot_2023-05-25_at_09.55.02-removebg-preview.png" alt="">
+                    </div>
+
+                    <div class="shop">
+                        <h4>HỆ THỐNG CỬA HÀNG</h4>
+                    </div>
+
+                    <div class="shop">
+                        <h4>FANPAGE CHÚNG TÔI</h4>
+                    </div>
+                </div>
+
+            </div>
+        </main>
+    </div>
+</body>
+
+</html>
